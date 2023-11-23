@@ -1,20 +1,17 @@
 #include <iostream>
 #include <string>
 
-int main(){
- std::cout<<"Introduce una frase: ";
- std::string str1;
- std::getline(std::cin, str1);
 
- std::string str2="mundo!";
+    int main() {
+        std::string str1="Hola ";
+        std::string str2="Mundo ";
+        std::string str3="Como ";
+        std::string str4="Estan ";
+        std::string str5="Todos ";
+        std::string resultado=str1+str2+str3+str4+str5;
+        std::cout<<"Cadena resultante:"<<resultado<<std::endl;
 
- std::string str3 = str1 + str2;
- std::cout << "\nCadena 1: " << str1 << "\nCadena 2: " << str2 << "\nCadena resultante: " << str3 << std::endl;
-
-    std::cout << "\nLongitudes:\nCadena 1: " << str1.length() << "\nCadena 2: " << str2.length()
-              << "\nCadena resultante: " << str3.length() << std::endl;
-
+         }
 
 
 
-}
